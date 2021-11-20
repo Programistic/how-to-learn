@@ -200,6 +200,8 @@
   flex-direction: column;
   align-items: center;
 
+  height: 890px; /* подумать */
+
   padding-top: 100px;
 
   background-size: 867px 637px;
@@ -223,8 +225,6 @@
 
   font-size: 36px;
   line-height: 51px;
-
-  margin-bottom: 450px; /* убрать, когда разберусь как правильно */
 }
 
 .feynman__link {
@@ -241,6 +241,18 @@
   line-height: 51px;
 }
 
+
+/* стили для секции kaufman */
+.kaufman {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
@@ -248,5 +260,5 @@
   margin-top: 80px;
   margin-right: 0;
   
-  color: white;
+  /*color: white;*/
 }
