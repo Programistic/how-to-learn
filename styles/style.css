@@ -192,6 +192,55 @@
   line-height: 1.2;
 }
 
+/* стили для секции feynman */
+.feynman {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 100px;
+
+  background-size: 867px 637px;
+  background-image: url(../images/feynman.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+.feynman__title {
+  width: 648px;
+
+  font-weight: bold;
+  font-size: 120px;
+  line-height: 1.15;
+
+  text-align: center;
+}
+
+.feynman__subtitle {
+  margin-top: 70px;
+
+  font-size: 36px;
+  line-height: 51px;
+
+  margin-bottom: 450px; /* убрать, когда разберусь как правильно */
+}
+
+.feynman__link {
+  position: absolute;
+
+  top: 50%;
+  right: 48px;
+  bottom: 50%;
+
+  color: #2f80ed;
+  text-decoration: none;
+
+  font-size: 36px;
+  line-height: 51px;
+}
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
