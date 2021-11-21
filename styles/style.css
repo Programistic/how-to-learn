@@ -8,6 +8,11 @@
   src: url(../fonts/HelveticaNeueCyr-Roman.ttf);
 }
 
+@font-face {
+  font-family: 'Helvetica Neue Bold';
+  src: url(../fonts/HelveticaNeueCyr-Bold.ttf);
+}
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -16,7 +21,7 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Helvetica Neue', 'Helvetica Neue Bold', Arial, sans-serif;
   font-weight: normal;
 }
 
@@ -54,11 +59,9 @@
 }
 
 .header__title {
-  position: absolute;
-
   width: 730px;
 
-  left: 64px;
+  margin-left: 64px;
 
   align-self: center;
 
@@ -297,10 +300,6 @@
   overflow: hidden;
 
   z-index: -2;
-}
-
-.table_theme_dark {
-  /* подумать над шириной блока */
 }
 
 .section-title_theme_dark {
