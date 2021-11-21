@@ -29,6 +29,10 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+
+  background-color: #f2f2f2;
+
+  z-index: -3;
 }
 
 .logo {
@@ -256,6 +260,8 @@
 
   padding-top: 90px;
   padding-bottom: 90px;
+
+  background-color: #1f1f1f;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -265,5 +271,5 @@
   margin-top: 80px;
   margin-right: 0;
   
-  /*color: white;*/
+  color: white;
 }
