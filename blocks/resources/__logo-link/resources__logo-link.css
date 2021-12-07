@@ -1,0 +1,13 @@
+.resources__logo-link {
+  display: block;
+
+  height: 100%;
+
+  transition-property: opacity;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+}
+
+.resources__logo-link:hover {
+  opacity: 0.7;
+}
