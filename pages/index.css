@@ -1,4 +1,5 @@
 /* Общие стили для страницы */
+@import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
 
 
