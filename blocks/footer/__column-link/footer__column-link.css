@@ -10,9 +10,7 @@
 
   text-decoration: none;
 
-  transition-property: opacity;
-  transition-duration: 0.2s;
-  transition-timing-function: linear;
+  transition: opacity 0.2s linear;
 }
 
 .footer__column-link:hover {

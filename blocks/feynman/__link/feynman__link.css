@@ -12,9 +12,7 @@
 
   text-decoration: none;
 
-  transition-property: opacity;
-  transition-duration: 0.2s;
-  transition-timing-function: linear;
+  transition: opacity 0.2s linear;
 }
 
 .feynman__link:hover {
