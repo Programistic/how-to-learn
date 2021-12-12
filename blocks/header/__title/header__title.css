@@ -6,9 +6,7 @@
 
   align-self: center;
 
-  font-weight: bold;
-  font-size: 102px;
-  line-height: 96px;
+  font: bold 102px/96px 'Helvetica Neue', Arial, sans-serif;
 
   z-index: 2;
 }

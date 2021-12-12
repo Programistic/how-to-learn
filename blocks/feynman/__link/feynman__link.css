@@ -6,9 +6,7 @@
 
   color: #2f80ed;
 
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 51px;
+  font: normal 36px/51px 'Helvetica Neue', Arial, sans-serif;
 
   text-decoration: none;
 

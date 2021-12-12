@@ -1,9 +1,7 @@
 .cards__description {
   margin: 0;
 
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 23px;
+  font: normal 18px/23px 'Helvetica Neue', Arial, sans-serif;
 
   text-align: center;
 }
