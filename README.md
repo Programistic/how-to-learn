@@ -1,20 +1,26 @@
-# Одностраничный сайт "Научиться учиться"
+### One-page website "How to learn"
 
-### https://cut-plantation.surge.sh
+#### About
+It is my first training project from Yandex.Praktikum
 
-#### Учебный проект от Яндекс-Практикум
+#### Project functionality
+One-page not an adaptive website. The site introduces the user to a variety of modern<br>
+teaching methods in the world. It provides links to useful resources about teaching techniques<br>
+on the Internet. The purpose of the site is to gain skills in the use of technology Flex,<br>
+BEM, animations, transformations.
 
-##### Функциональность:
-Сайт знакомит пользователя с различными современными методами обучения, практикуемыми
-в мире, и их авторами. Даёт ссылки на полезные ресурсы о техниках обучения в сети Интернет.
+#### Technology stack
+- HTML5
+- CSS3
+- BEM
+- Flex
+- Transformations
+- Animations
 
-##### Используемые технологии:
-- БЭМ
-- Абсолютное и относительное позиционирование элементов
-- Flex Layout
-- Трансформации
-- Анимации
+#### Deploy
+- $ npm install --global surge
+- $ surge
+- project: ../how-to-learn
 
-##### Планы по доработке проекта:
-- Сделать сайт адаптивным для устройств с различным разрешением экрана
-- Проверить код на кроссбраузерность и дописать все вендорные префиксы
+#### Website link
+- https://cut-plantation.surge.sh
